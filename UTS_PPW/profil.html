@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pengguna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5; /* Latar belakang abu-abu muda */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box; /* Pastikan padding tidak membuat overflow */
+        }
+        .profile-card {
+            background-color: #ffffff;
+            border-radius: 12px; /* Sudut lebih membulat */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Bayangan yang lebih menonjol */
+            padding: 30px;
+            width: 100%;
+            max-width: 400px; /* Lebar maksimum kartu profil */
+            text-align: center;
+        }
+        .profile-picture {
+            width: 120px; /* Ukuran foto profil */
+            height: 120px;
+            border-radius: 50%; /* Membuat foto menjadi lingkaran */
+            object-fit: cover; /* Memastikan gambar mengisi area tanpa terdistorsi */
+            margin-bottom: 20px;
+            border: 4px solid #007bff; /* Border biru di sekitar foto */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 26px; /* Ukuran font nama */
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 8px; /* Jarak antar paragraf */
+            font-size: 16px;
+        }
+        p strong {
+            color: #333;
+        }
+        .info-group {
+            margin-top: 20px;
+            border-top: 1px solid #eee; /* Garis pemisah */
+            padding-top: 20px;
+            text-align: left; /* Teks informasi rata kiri */
+        }
+        .info-group p {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/120" alt="Foto Profil" class="profile-picture">
+        <h2>Nama Lengkap Anda</h2>
+
+        <div class="info-group">
+            <p><strong>Kelas:</strong> XII IPA 1</p>
+            <p><strong>Umur:</strong> 17 tahun</p>
+            <p><strong>Alamat:</strong> Jl. Contoh Alamat No. 123, Kel. Suka Maju, Kec. Jaya Raya, Jakarta Utara, 14430</p>
+        </div>
+    </div>
+</body>
+</html>
